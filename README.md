@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 ### 3. **Modificación del código**
 
-Cambiar la variable "" por su token de autenticación ngrok
+Cambiar la variable "API_TOKEN" por su token de autenticación ngrok
 
 ### 4. **Ejecución del código**
 
