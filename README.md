@@ -65,8 +65,11 @@ python app.py
 ### 5. **Salida esperada y pruebas**
 
 Cargando modelo GPT2...
+
 Device set to use cpu
+
 La API está disponible públicamente en: NgrokTunnel: "https://947a-34-148-67-83.ngrok-free.app" -> "http://localhost:8000"
+
 
 A continuación se cogerá el NgrokTunnel y se añadirá a Postman en método POST para probar los métodos generate e history.
 
