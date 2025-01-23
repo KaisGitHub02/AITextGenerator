@@ -21,6 +21,8 @@ Antes de ejecutar la API, asegúrate de tener instalado Python y las siguientes 
 1. **Token de ngrok**: Como se menciona en el archivo, asegúrate de obtener tu token de autenticación de ngrok y configurarlo correctamente en las variables de entorno.
 2. **Autenticación**: La API está protegida con un token básico configurado en el código. Asegúrate de cambiar el valor de `API_TOKEN` antes de usarla en producción.
 ![image](https://github.com/user-attachments/assets/fa9c0449-a8a2-4063-8e9b-aa6a16a49a4d)
+3. **Modelo**: El modelo GPT2 solo funciona con prompt en Inglés, dado que se ha creado a modo de ejemplo básico.
+4. **Temperature y Top_p**: Son variables que se pueden modificar en el body del POST. Se deberán modificar en base al tipo de consulta que se quiere realizar. Para cuestiones de respuestas exactas lo mejor es una Temperatura baja (para reducir aleatoriedad) y un Top_p bajo (para reducir diversidad)
 
 ### Descripción de los Endpoints:
 
